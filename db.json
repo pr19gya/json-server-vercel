@@ -1,6 +1,24 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "username": "agent",
+      "password": "agent123",
+      "role": "supportAgent"
+    },
+    {
+      "id": 3,
+      "username": "employee",
+      "password": "employee123",
+      "role": "employee"
+    }
+    
   ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 }
