@@ -20,8 +20,26 @@
     }
     
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "tickets":[
+    {
+      "id": 1,
+      "title": "Bug in User Login",
+      "description": "Users are unable to log in with valid credentials due to a server error.",
+      "status": "Open",
+      "priority": "High",
+      "createdBy": "employee",
+      "createdAt": "2024-11-21T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "title": "Feature Request: Dark Mode",
+      "description": "Add a dark mode feature for better user experience during nighttime usage.",
+      "status": "In Progress",
+      "priority": "Medium",
+      "createdBy": "employee",
+      "createdAt": "2024-11-20T09:00:00Z"
+    }
   ],
+  
   "profile": { "name": "typicode" }
 }
